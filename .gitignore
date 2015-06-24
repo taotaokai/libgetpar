@@ -1,0 +1,16 @@
+# other files
+others/
+bak/
+old/
+
+# Build time
+bin/
+obj/
+lib/
+
+# Trash files
+.*swp
+.*swo
+*~
+*.o
+*.a
