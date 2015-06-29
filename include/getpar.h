@@ -5,10 +5,10 @@
 /* This file was generated with:
 'cfunctions --backup -n -g ../include/SU_getpar atopkge.c docpkge.c ealloc1.c 
 errpkge.c getpars.c strstuff.c subcalls.c' */
-#ifndef SU_GETPAR_H
-#define SU_GETPAR_H
+#ifndef GETPAR_H
+#define GETPAR_H
 
-/* From '../include/SU_getpar.hin': */
+/* From '../include/getpar.hin': */
 #include <stdio.h>
 #include <stddef.h>
 /* From 'atopkge.c': */
@@ -169,4 +169,4 @@ off_t eftello (FILE *streem );
 #line 160 "subcalls.c"
 size_t efread (void *bufptr , size_t size , size_t count , FILE *stream );
 
-#endif /* SU_GETPAR_H */
+#endif /* GETPAR_H */

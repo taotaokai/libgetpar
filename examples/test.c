@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
-#include "SU_getpar.h"
+#include "getpar.h"
 
 char *sdoc[] = {
 " 									",

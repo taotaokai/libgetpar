@@ -10,7 +10,7 @@ lib_dir = lib
 obj_dir = obj
 
 CCFLAGS = -I$(inc_dir)
-CCFLAGS += -g -Wall -Wextra -std=gnu99 -pedantic
+CCFLAGS += -g -Wall -Wextra -pedantic -std=gnu99
 
 src = atopkge.c \
 	  docpkge.c \

@@ -39,7 +39,7 @@
 #
 PRG_SUFFIX_FLAG := 0
 #
-LDFLAGS := -lm -L../lib -lSU_getpar
+LDFLAGS := -lm -L../lib -lgetpar
 CFLAGS_INC := -I../include
 CFLAGS := -g -Wall -Wextra -std=gnu99 -pedantic -D TEST $(CFLAGS_INC)
 #
