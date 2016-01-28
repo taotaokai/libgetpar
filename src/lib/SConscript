@@ -1,0 +1,8 @@
+Import('env')
+
+# toolkit.h is located in this directory, add it to the include path
+#flags = {'CPPPATH' : ['.'] }
+#env.MergeFlags(flags)
+
+env.Library('libgetpar', ['atopkge.c', 'docpkge.c', 'ealloc1.c', 'errpkge.c', \
+    'getpars.c', 'strstuff.c', 'subcalls.c'] )
