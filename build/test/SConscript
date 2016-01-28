@@ -1,0 +1,7 @@
+Import('env')
+
+# We require toolkit.h
+env.Append(CPPPATH=['../lib/'])
+
+env.Program('getargtbl', ['getargtbl.c'], LIBS=['libgetpar'], LIBPATH='../lib')
+env.Program('test', ['test.c'], LIBS=['libgetpar'], LIBPATH='../lib')
